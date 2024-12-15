@@ -11,7 +11,7 @@ namespace Acfour
         const string Result = "Aquest son els teus numeros";
         const string Ordered = " ordenats";
         const int Zero = 0;
-        const int Two = 2;
+        const int One = 1;
         public static void Main()
         {
             Console.WriteLine(AskArrayLength);
@@ -52,7 +52,7 @@ namespace Acfour
             }
             return userNum;
         }
-        public static bool IsNatNum(int userNum) { return userNum > Zero && userNum % Two == Zero; }
+        public static bool IsNatNum(int userNum) { return userNum > Zero && userNum % One == Zero; }
         public static void FillArray(int[] array)
         {
             for (int i = 0; i < array.Length; i++) 
@@ -74,14 +74,14 @@ namespace Acfour
             {
                 int pivotIndex = Partition(array, low, high);
 
-                QuickSortDescending(array, low, pivotIndex - 1);  // Sort the left part
-                QuickSortDescending(array, pivotIndex + 1, high); // Sort the right part
+                QuickSortDescending(array, low, pivotIndex - One);  // Sort the left part
+                QuickSortDescending(array, pivotIndex + One, high); // Sort the right part
             }
         }
         public static int Partition(int[] array, int low, int high)
         {
             int pivot = array[high];
-            int i = low - 1;
+            int i = low - One;
 
             for (int j = low; j < high; j++)
             {
@@ -92,8 +92,8 @@ namespace Acfour
                 }
             }
 
-            Swap(array, i + 1, high);
-            return i + 1; // Return the pivot index
+            Swap(array, i + One, high);
+            return i + One; // Return the pivot index
         }
 
         public static void Swap(int[] array, int i, int j)

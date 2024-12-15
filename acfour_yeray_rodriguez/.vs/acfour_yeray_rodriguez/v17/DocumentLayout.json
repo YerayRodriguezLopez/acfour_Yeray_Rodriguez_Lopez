@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{06B71543-9A70-46F0-9C64-3EE634EF89B9}|acfour_yeray_rodriguez\\acfour_yeray_rodriguez.csproj|c:\\users\\isard\\documents\\programacion\\acfour_yeray_rodriguez_lopez\\acfour_yeray_rodriguez\\acfour_yeray_rodriguez\\programacfouryerayrodriguez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06B71543-9A70-46F0-9C64-3EE634EF89B9}|acfour_yeray_rodriguez\\acfour_yeray_rodriguez.csproj|solutionrelative:acfour_yeray_rodriguez\\programacfouryerayrodriguez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2651692F-A918-4C11-B64D-F5D4DCC4FD63}|Test acfour_yeray_rodriguez\\Test acfour_yeray_rodriguez.csproj|c:\\users\\isard\\documents\\programacion\\acfour_yeray_rodriguez_lopez\\acfour_yeray_rodriguez\\test acfour_yeray_rodriguez\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2651692F-A918-4C11-B64D-F5D4DCC4FD63}|Test acfour_yeray_rodriguez\\Test acfour_yeray_rodriguez.csproj|solutionrelative:test acfour_yeray_rodriguez\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Documents\\Programacion\\acfour_Yeray_Rodriguez_Lopez\\acfour_yeray_rodriguez\\Test acfour_yeray_rodriguez\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Test acfour_yeray_rodriguez\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\acfour_Yeray_Rodriguez_Lopez\\acfour_yeray_rodriguez\\Test acfour_yeray_rodriguez\\UnitTest1.cs",
+              "RelativeToolTip": "Test acfour_yeray_rodriguez\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:33:17.244Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "acfour_yeray_rodriguez\\ProgramAcfourYerayRodriguez.cs",
               "ToolTip": "C:\\Users\\isard\\Documents\\Programacion\\acfour_Yeray_Rodriguez_Lopez\\acfour_yeray_rodriguez\\acfour_yeray_rodriguez\\ProgramAcfourYerayRodriguez.cs",
               "RelativeToolTip": "acfour_yeray_rodriguez\\ProgramAcfourYerayRodriguez.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T20:12:32.895Z",
               "EditorCaption": ""
