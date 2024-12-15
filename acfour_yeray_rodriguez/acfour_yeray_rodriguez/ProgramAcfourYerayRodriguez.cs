@@ -74,7 +74,7 @@ namespace Acfour
                 QuickSortDescending(array, pivotIndex + 1, high); // Sort the right part
             }
         }
-        static int Partition(int[] array, int low, int high)
+        public static int Partition(int[] array, int low, int high)
         {
             int pivot = array[high];
             int i = low - 1;
@@ -90,6 +90,13 @@ namespace Acfour
 
             Swap(array, i + 1, high);
             return i + 1; // Return the pivot index
+        }
+
+        public static void Swap(int[] array, int i, int j)
+        {
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
         }
     }
 }
