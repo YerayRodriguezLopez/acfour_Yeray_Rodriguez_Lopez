@@ -74,5 +74,22 @@ namespace Acfour
                 QuickSortDescending(array, pivotIndex + 1, high); // Sort the right part
             }
         }
+        static int Partition(int[] array, int low, int high)
+        {
+            int pivot = array[high];
+            int i = low - 1;
+
+            for (int j = low; j < high; j++)
+            {
+                if (array[j] > pivot) // Change condition to ">" for descending order
+                {
+                    i++;
+                    Swap(array, i, j);
+                }
+            }
+
+            Swap(array, i + 1, high);
+            return i + 1; // Return the pivot index
+        }
     }
 }
