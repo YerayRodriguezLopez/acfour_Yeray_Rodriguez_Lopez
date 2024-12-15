@@ -9,6 +9,7 @@ namespace Acfour
         const string InvalidErr = "Valor no valid, ha de ser un numero natural";
         const string LargeErr = "El numero es massa llarg";
         const string Result = "Aquest son els teus numeros";
+        const string Ordered = " ordenats";
         const int Zero = 0;
         const int Two = 2;
         public static void Main()
@@ -16,6 +17,10 @@ namespace Acfour
             Console.WriteLine(AskArrayLength);
             int[] myArray = new int[GetNatNum()];
             FillArray(myArray);
+            Console.WriteLine(Result);
+            PrintArray(myArray);
+            QuickSortDescending(myArray, Zero, myArray.Length - 1);
+            Console.WriteLine(Result + Ordered);
             PrintArray(myArray);
         }
         public static int GetNatNum()
@@ -57,7 +62,6 @@ namespace Acfour
         }
         public static void PrintArray(int[] array)
         {
-            Console.WriteLine(Result);
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write(array[i]);
