@@ -68,7 +68,7 @@ namespace Acfour
                 if (!(i == array.Length)) { Console.Write(","); }
             }
         }
-        static void QuickSortDescending(int[] array, int low, int high)
+        public static void QuickSortDescending(int[] array, int low, int high)
         {
             if (low < high)
             {
