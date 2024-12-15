@@ -9,6 +9,7 @@ namespace Acfour
         const string InvalidErr = "Valor no valid, ha de ser un numero natural";
         const string LargeErr = "El numero es massa llarg";
         const string Result = "Aquest son els teus numeros";
+        const string Ordered = " ordenats";
         const int Zero = 0;
         const int Two = 2;
         public static void Main()
@@ -16,6 +17,10 @@ namespace Acfour
             Console.WriteLine(AskArrayLength);
             int[] myArray = new int[GetNatNum()];
             FillArray(myArray);
+            Console.WriteLine(Result);
+            PrintArray(myArray);
+            QuickSortDescending(myArray, Zero, myArray.Length - 1);
+            Console.WriteLine(Result + Ordered);
             PrintArray(myArray);
         }
         public static int GetNatNum()
@@ -57,12 +62,45 @@ namespace Acfour
         }
         public static void PrintArray(int[] array)
         {
-            Console.WriteLine(Result);
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write(array[i]);
                 if (!(i == array.Length)) { Console.Write(","); }
             }
+        }
+        static void QuickSortDescending(int[] array, int low, int high)
+        {
+            if (low < high)
+            {
+                int pivotIndex = Partition(array, low, high);
+
+                QuickSortDescending(array, low, pivotIndex - 1);  // Sort the left part
+                QuickSortDescending(array, pivotIndex + 1, high); // Sort the right part
+            }
+        }
+        public static int Partition(int[] array, int low, int high)
+        {
+            int pivot = array[high];
+            int i = low - 1;
+
+            for (int j = low; j < high; j++)
+            {
+                if (array[j] > pivot) // Change condition to ">" for descending order
+                {
+                    i++;
+                    Swap(array, i, j);
+                }
+            }
+
+            Swap(array, i + 1, high);
+            return i + 1; // Return the pivot index
+        }
+
+        public static void Swap(int[] array, int i, int j)
+        {
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
         }
     }
 }

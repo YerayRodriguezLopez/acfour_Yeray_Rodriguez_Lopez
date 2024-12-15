@@ -1,0 +1,15 @@
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\bin\Debug\net8.0\acfour_yeray_rodriguez.exe
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\bin\Debug\net8.0\acfour_yeray_rodriguez.deps.json
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\bin\Debug\net8.0\acfour_yeray_rodriguez.runtimeconfig.json
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\bin\Debug\net8.0\acfour_yeray_rodriguez.dll
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\bin\Debug\net8.0\acfour_yeray_rodriguez.pdb
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.AssemblyInfoInputs.cache
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.AssemblyInfo.cs
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.csproj.CoreCompileInputs.cache
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.sourcelink.json
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.dll
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\refint\acfour_yeray_rodriguez.dll
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.pdb
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\acfour_yeray_rodriguez.genruntimeconfig.cache
+C:\Users\isard\Documents\Programacion\acfour_Yeray_Rodriguez_Lopez\acfour_yeray_rodriguez\acfour_yeray_rodriguez\obj\Debug\net8.0\ref\acfour_yeray_rodriguez.dll
