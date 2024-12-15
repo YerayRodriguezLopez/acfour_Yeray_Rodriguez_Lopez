@@ -64,5 +64,15 @@ namespace Acfour
                 if (!(i == array.Length)) { Console.Write(","); }
             }
         }
+        static void QuickSortDescending(int[] array, int low, int high)
+        {
+            if (low < high)
+            {
+                int pivotIndex = Partition(array, low, high);
+
+                QuickSortDescending(array, low, pivotIndex - 1);  // Sort the left part
+                QuickSortDescending(array, pivotIndex + 1, high); // Sort the right part
+            }
+        }
     }
 }
