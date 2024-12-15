@@ -1,4 +1,6 @@
-﻿namespace Acfour
+﻿using System.Runtime.CompilerServices;
+
+namespace Acfour
 {
     public class ProgramAcfourYerayRodriguez
     {
@@ -6,6 +8,7 @@
         const string NatNumErr = "El numero a de ser natural";
         const string InvalidErr = "Valor no valid, ha de ser un numero natural";
         const string LargeErr = "El numero es massa llarg";
+        const string Result = "Aquest son els teus numeros";
         const int Zero = 0;
         const int Two = 2;
         public static void Main()
@@ -50,6 +53,15 @@
             for (int i = 0; i < array.Length; i++) 
             {
                 array[i] = GetNatNum();
+            }
+        }
+        public static void PrintArray(int[] array)
+        {
+            Console.WriteLine(Result);
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i]);
+                if (!(i == array.Length)) { Console.Write(","); }
             }
         }
     }
